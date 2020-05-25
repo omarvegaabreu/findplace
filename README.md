@@ -1,4 +1,4 @@
-![alt text](/assets/images/myplace.PNG)
+![alt text](dist/assets/images/myplace.PNG)
 
 URL:https://gallant-almeida-a6a1da.netlify.app/
 
