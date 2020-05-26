@@ -4,9 +4,9 @@ URL:https://gallant-almeida-a6a1da.netlify.app/
 
 ### FIND MY PLACE
 
-This application was built in order to continue to work with Object Oriented Programming with javascript. Using classes to manipulate DOM elements, parsing element data, passing method references, moving DOM elements. Also in using OOP , I made API calls to the google Geo Location javaScript API. I used the Async/Await feature in order to make HTTPS requests. This application was configuring using webpack.
+This application was built in order to continue to work with Object Oriented Programming with javascript. Using classes to manipulate DOM elements, parsing element data, passing method references, moving DOM elements. Also in using OOP , I made API calls to the google Geo Location javaScript API. I used the Async/Await feature in order to make HTTPS requests. This application was configuring using webpack.Also I am using sanitize-html to prevent script attacks being sent through user inputs.
 
-### NOTE: ENV PROCESS WAS NOT USED IN THIS APPLICATION GIVEN THAT IT DOES NOT RUN ON A SERVER. HOWEVER THE NECESSARY SECURITY PROTOCOLS HAVE BEEN ENABLED; IN ORDER TO SECURE THE GOOGLE API KEYS.
+### NOTE: ENV PROCESS TO PROTECT API KEY. HOWEVER THE NECESSARY SECURITY PROTOCOLS HAVE BEEN ENABLED; IN ORDER TO SECURE THE GOOGLE API KEYS.
 
 ### Usage
 
@@ -30,6 +30,7 @@ From the command line: git clone https://github.com/omarvegaabreu/findplace.git
 ### Technologies used
 
 -ES6 Javascript
+-sanitize-html
 -Webpack
 -ESlint
 -HTML
